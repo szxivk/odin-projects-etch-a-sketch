@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #939290;
+  background-color: #f2f7fa;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,7 @@ body {
   justify-content: space-around;
   width: 960px;
   height: 960px;
-  background-color: #dcdcd8;
+  background-color: #e5e4e2;
 }
 
 .sketch-screen > div {
@@ -40,7 +40,7 @@ body {
 }
 
 .cell {
-  border: 1px solid black;
+  border: 1px solid #c0c0c0;
 }
 
 .title-header {
