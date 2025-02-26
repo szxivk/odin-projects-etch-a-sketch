@@ -1,12 +1,13 @@
+//need to set a limit for size to be max 100 or 64 later
+
 function makeGrid(size) {
   let screen = document.querySelector(".sketch-screen");
   for (let i = 0; i < size; i++) {
     let column = document.createElement("div");
-    column.classList.add("column");
+    column.classList.add("row");
     for (let j = 1; j <= size; j++) {
       let row = document.createElement("div");
-      row.classList.add("row");
-      row.style.border = "1px solid black";
+      row.classList.add("cell");
 
       column.appendChild(row);
     }
@@ -14,4 +15,6 @@ function makeGrid(size) {
   }
 }
 
-makeGrid(64);
+makeGrid(16);
+
+//add hovering effect
